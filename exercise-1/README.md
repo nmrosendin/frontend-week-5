@@ -1,17 +1,13 @@
-# TODO List
+This week we're going to work on a virtual portfolio site using jQuery
 
-This week, we're going to create a TODO list app.
+## Exercise 1 - Nav
 
-## Exercise 1
-
-Set up the basic html for entering new items and displaying them
-
-1. Create a text input for adding new items to the TODO list
-2. When you hit the `enter` key, a new TODO item should appear on your TODO list, and the text input should be cleared. There are multiple ways to do this.
-3. Each TODO item should have a checkbox and a corresponding label
+1. In the main content div, display only the "home" section initially
+2. When clicking on one of the tabs in the nav bar, show the appropriate section of the page and hide all others.
+3. Make the current tab highlighted in some way.
 
 Bonus:
 
-1. Use CSS to make the text input bigger
+1. Use an animated transition when switching to a section of the site
 
-![TODO Demo](images/todo-demo.gif)
+![TODO Demo](images/exercise-1-demo.gif)

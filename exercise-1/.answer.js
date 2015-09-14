@@ -1,21 +1,11 @@
-function addTodoItem(event) {
-  event.preventDefault();
-  // necessary to prevent the submitting of a form
-  var todolist    = document.getElementById("todolist");
-  var item        = document.getElementById("item");
-  var li          = document.createElement("li");
-  var label       = document.createElement("label");
-  var checkbox    = document.createElement("input");
-  checkbox.type   = "checkbox";
-
-  label.appendChild(checkbox)
-  label.appendChild(document.createTextNode(item.value));
-
-  li.appendChild(label)
-  todolist.appendChild(li);
-  item.value = "";
-}
-
-form = document.getElementById("the-form");
-form.addEventListener("submit", addTodoItem);
+jQuery(function(){
+  $("nav a").click(function(e){
+    e.preventDefault()
+    var id = $(this).attr("href")
+    $("article").hide()
+    $(id).fadeIn() // or $(id).show()
+    $("nav a").removeClass("highlight")
+    $(this).addClass("highlight")
+  })
+});
 
