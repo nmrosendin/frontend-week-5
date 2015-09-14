@@ -1,0 +1,22 @@
+* {
+  font-family: Arial;
+}
+
+input[type=text]{
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 500px;
+  padding: 10px;
+}
+
+#foo{
+  font-size: 36px;
+  text-align: center;
+  font-family: Georgia;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 30px;
+}
