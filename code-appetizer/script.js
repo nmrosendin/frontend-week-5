@@ -1,5 +1,8 @@
-/*
+var button = document.getElementById("button");
+button.addEventListener("click", function(){
+var enteredtext = document.getElementById("text").value;
 
-  Your Javascript here
-
-*/
+var foo = document.getElementById("foo");
+foo.innerText = enteredtext;  
+console.log(foo);
+});
